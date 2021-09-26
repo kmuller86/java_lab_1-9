@@ -6,10 +6,15 @@ public class Main {
 
         /* ćw.4 */
 
-        /* zad.1 proszę dodać kilka złożonych operacji uzywając kilku operatorów arytmetycznych i logicznych */
-        int x = 8;
-        int y = 4;
-        int z = 10;
+        /* zad.1 Proszę dodać kilka złożonych operacji uzywając kilku operatorów arytmetycznych i logicznych */
+
+        boolean a=true;
+        boolean b= true;
+        boolean c= false;
+
+        System.out.println("a&&b"+ a&&b);
+        System.out.println("b||c"+ b||c);
+        System.out.println("a!=b"+ a!=b);
 
 
     }
