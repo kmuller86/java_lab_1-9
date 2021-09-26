@@ -12,13 +12,14 @@ public class Main {
         boolean b= true;
         boolean c= false;
 
-        System.out.println("a&&b"+ a&&b);
-        System.out.println("b||c"+ b||c);
-        System.out.println("a!=b"+ a!=b);
+        System.out.println("(a&&b)"+ (a&&b));
+        System.out.println("(b||c)"+ (b||c));
+        System.out.println("(a!=b)"+ (a!=b));
 
          int x=4;
          int y=4;
          int z=2;
-        System.out.println("x>z"+ x>z);
+        System.out.println("(x>z)"+ (x>z));
+        System.out.println("((a&&b)||(x>x))"+ ((a&&b)||(x>x)));
     }
 }
