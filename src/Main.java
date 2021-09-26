@@ -16,6 +16,9 @@ public class Main {
         System.out.println("b||c"+ b||c);
         System.out.println("a!=b"+ a!=b);
 
-
+         int x=4;
+         int y=4;
+         int z=2;
+        System.out.println("x>z"+ x>z);
     }
 }
